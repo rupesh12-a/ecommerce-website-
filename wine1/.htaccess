@@ -1,0 +1,13 @@
+# Vino e Casa — Apache configuration
+
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Serve the custom 404 page
+    ErrorDocument 404 /404.php
+</IfModule>
+
+# Block access to sensitive directories (also protected by their own .htaccess)
+RedirectMatch 404 ^/(config|includes|database)/

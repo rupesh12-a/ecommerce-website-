@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Vino e Casa">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a1e34"/>
+      <stop offset="1" stop-color="#5c1220"/>
+    </linearGradient>
+  </defs>
+  <circle cx="24" cy="24" r="23" fill="url(#lg)"/>
+  <circle cx="24" cy="24" r="21.5" fill="none" stroke="#d4af37" stroke-width="1"/>
+  <path d="M20 12h8v2.5h-8z" fill="#d4af37"/>
+  <path d="M21 14.5h6v6.5c0 2.4 4 3.6 4 8.4V38a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2v-8.6c0-4.8 4-6 4-8.4z" fill="#f3e7d0"/>
+  <path d="M19 27.5h10V32H19z" fill="#d4af37" opacity="0.85"/>
+</svg>

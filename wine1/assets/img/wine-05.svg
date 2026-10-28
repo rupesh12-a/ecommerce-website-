@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Bottle of Shiraz wine">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efe2c6"/>
+      <stop offset="1" stop-color="#1a3122" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1a13"/>
+      <stop offset="0.55" stop-color="#1a3122"/>
+      <stop offset="1" stop-color="#0d1a13"/>
+    </linearGradient>
+    <linearGradient id="foil" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9a24b"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#c9a24b"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <ellipse cx="200" cy="466" rx="120" ry="16" fill="#000" opacity="0.10"/>
+  <path d="M162 52 h76 v18 a12 12 0 0 1 -12 12 h-52 a12 12 0 0 1 -12 -12 z" fill="url(#foil)"/>
+  <path d="M170 78 h60 v72 c0 26 44 40 44 92 v196 c0 20 -14 30 -34 30 h-80 c-20 0 -34 -10 -34 -30 v-196 c0 -52 44 -66 44 -92 z" fill="url(#glass)"/>
+  <path d="M170 78 h10 v72 c0 26 -30 40 -30 92 v196 c0 14 6 24 18 28 c-16 -2 -24 -12 -24 -28 v-196 c0 -52 42 -66 42 -92 z" fill="#fff" opacity="0.12"/>
+  <rect x="118" y="286" width="164" height="118" rx="6" fill="#efe2c6"/>
+  <rect x="118" y="286" width="164" height="118" rx="6" fill="none" stroke="#c9a24b" stroke-width="2"/>
+  <line x1="130" y1="312" x2="270" y2="312" stroke="#c9a24b" stroke-width="1.5" opacity="0.8"/>
+  <text x="200" y="340" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" letter-spacing="3" fill="#4a1319">VINO e CASA</text>
+  <text x="200" y="372" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#4a1319" opacity="0.85">Shiraz</text>
+  <line x1="130" y1="388" x2="270" y2="388" stroke="#c9a24b" stroke-width="1.5" opacity="0.8"/>
+  <text x="200" y="410" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#4a1319">2021</text>
+</svg>
